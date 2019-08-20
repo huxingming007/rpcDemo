@@ -1,16 +1,0 @@
-
-?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-[squid:S21475"DCombine this catch with the one at line 47, which has the same body.(Å¡ß
-[squid:S21477"DCombine this catch with the one at line 47, which has the same body.(åþáÿ
-?squid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-[squid:S21471"DCombine this catch with the one at line 47, which has the same body.(ýàÑÎ
-?squid:S1148>"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-usquid:S1488h"^Immediately return this expression instead of assigning it to the temporary variable "result".(ëÇíÃ
-Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-?squid:S11488"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-`squid:S21473"DCombine this catch with the one at line 47, which has the same body.(¼¯•¶ùÿÿÿÿ
-?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-Fsquid:S2093#"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-csquid:S00112X"FDefine and throw a dedicated exception instead of using a generic one.(õ„¸Ôùÿÿÿÿ
-?squid:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

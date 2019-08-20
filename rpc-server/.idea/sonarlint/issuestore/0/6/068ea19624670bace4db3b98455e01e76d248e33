@@ -1,5 +1,0 @@
-
-Fsquid:S2093'"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-?squid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-«%squid:RedundantThrowsDeclarationCheck="sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(¯¶…œ8¨¿ýÇÈ-
