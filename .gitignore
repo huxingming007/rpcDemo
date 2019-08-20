@@ -5,7 +5,7 @@ tmp/
 *.tmp
 *.bak
 
-target/
+/target/
 
 .mvn/
 mvnw
