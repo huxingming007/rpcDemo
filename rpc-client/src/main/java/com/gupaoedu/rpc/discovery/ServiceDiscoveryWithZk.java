@@ -33,7 +33,7 @@ public class ServiceDiscoveryWithZk implements IServiceDiscovery {
     private CuratorFramework client;
 
     {
-        String connectString = "127.0.0.1:2181";
+        String connectString = "10.200.20.231:2181";
         client = CuratorFrameworkFactory.builder()
                 .connectString(connectString)
                 .sessionTimeoutMs(5000)
