@@ -1,0 +1,9 @@
+com/gupaoedu/vip/RpcService.class
+com/gupaoedu/vip/SpringConfig.class
+com/gupaoedu/vip/ProcessorHandler.class
+com/gupaoedu/vip/HelloServiceImpl.class
+com/gupaoedu/vip/App.class
+com/gupaoedu/vip/PaymentServiceImpl.class
+com/gupaoedu/vip/RpcProxyServer.class
+com/gupaoedu/vip/HelloServiceImpl2.class
+com/gupaoedu/vip/GpRpcServer.class
