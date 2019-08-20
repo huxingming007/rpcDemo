@@ -3,22 +3,16 @@ package com.gupaoedu.rpc;
 import com.gupaoedu.rpc.discovery.IServiceDiscovery;
 import com.gupaoedu.rpc.loadbalance.LoanBalance;
 import com.gupaoedu.vip.IHelloService;
-import com.gupaoedu.vip.IPaymentService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
-        /*RpcProxyClient rpcProxyClient=new RpcProxyClient();
-
-        IHelloService iHelloService=rpcProxyClient.clientProxy
-                (IHelloService.class,"localhost",8080);
-
-        String result=iHelloService.sayHello("Mic");
-        System.out.println(result);*/
 
         ApplicationContext context = new
                 AnnotationConfigApplicationContext(SpringConfig.class);
@@ -27,11 +21,13 @@ public class App {
         context.getBean(IServiceDiscovery.class);
         IHelloService iHelloService = rpcProxyClient.clientProxy
                 (IHelloService.class, "v2.0");
+        for (int i = 0; i < 100; i++) {
+            try {
+                TimeUnit.SECONDS.sleep(2);
+            } catch (InterruptedException e) {
+            }
+            System.out.println(iHelloService.sayHello("aaaa"));
+        }
 
-//        IPaymentService iPaymentService=rpcProxyClient.clientProxy(IPaymentService.class,
-//                "localhost",8080);
-
-        String aaaa = iHelloService.sayHello("aaaa");
-        System.out.println(aaaa);
     }
 }
